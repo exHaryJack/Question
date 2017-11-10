@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <math.h>
+
+void main()
+{
+  for(i=0;i<4;i++)
+  {
+    m=(int)pow(10,i);
+    printf("%d ",m);
+  } 
+}
+
+//It will display like "1 10 99 1000" in Codeblocks
